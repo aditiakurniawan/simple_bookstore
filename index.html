@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Book Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <style>
+        .navbar {
+            position: fixed;
+            top: 0;
+            z-index: 100;
+            background-color: white;
+            width: 100%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <div>
+        <!-- menu -->
+        <nav class="navbar d-md-flex px-4 py-2">
+            <div>
+                <h1>Shopo</h1>
+            </div>
+            <div class="ms-auto my-auto">
+                <ul class="d-flex list-inline m-0">
+                    <li class="mx-md-3 list-inline-item">
+                        <a href="#product" class="text-decoration-none text-black h6">
+                Product
+              </a>
+                    </li>
+                    <li class="mx-md-3 list-inline-item">
+                        <a href="#about" class="text-decoration-none text-black h6">
+                About
+              </a>
+                    </li>
+                    <li class="mx-md-3 list-inline-item">
+                        <a href="#order" class="text-decoration-none text-black h6">
+                Order
+              </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- end of header -->
+    <!-- banner -->
+    <div class="container-fluid mt-5 mb-md-5 pb-3 rounded-3">
+        <img src="./images/banner.png" alt="banner" class="w-100 img-thumbnail rounded-3 mt-4" />
+    </div>
+    <!-- end of banner -->
+
+    <!-- catalogue -->
+    <div class="text-center mt-md-5" id="product">
+        <h3>Our Collection</h3>
+        <h6>Discover Our Diverse Collection of Literary Treasures</h6>
+        <p class="text-md-center px-md-5 px-2 py-2">
+            Dive into a world of literary wonders with our carefully curated selection. From timeless classics to contemporary gems, we offer something for every reader. Discover captivating fiction, enlightening non-fiction, and inspiring poetry. Whether you crave
+            thrilling adventures or deep introspection, our collection has it all. Join us in celebrating the power of storytelling and embark on unforgettable journeys through the pages of our books. With renowned authors and emerging voices, our collection
+            promises endless exploration and inspiration. Explore our shelves today and let the magic of reading ignite your imagination.
+        </p>
+    </div>
+    <!-- end of catalogue -->
+
+    <!-- products -->
+    <div class="container-fluid mb-4 rounded-3 row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 row-cols-sm-2 g-4 p-4">
+        <div class="col mb-2">
+            <div class="card shadow rounded-4 border-white">
+                <img src="images/buku1.jpg" class="card-img-top p-3 rounded-3" alt="buku1" />
+                <div class="card-body">
+                    <h5 class="card-title">Atomic Habits</h5>
+                </div>
+                <div class="description d-none">
+                    <p>
+                        Atomic Habits" by James Clear is a transformative guide to building good habits and breaking bad ones. Clear distills the latest scientific research on habit formation into practical strategies for anyone looking to make positive changes in their life.
+                        He argues that small changes, when repeated consistently, can lead to remarkable results over time, and he provides a framework for implementing these changes effectively. Clear emphasizes the importance of understanding the psychology
+                        behind habits and offers actionable advice on how to create lasting behavior change. Whether you want to improve your health, productivity, or relationships, "Atomic Habits" offers valuable insights and tools to help you achieve
+                        your goals.
+                    </p>
+                </div>
+
+                <div class="card-footer d-md-flex d-flex-wrap justify-content-between align-items-center">
+                    <span class="fw-bold text-center price">Rp. 108.000</span>
+                    <a class="btn btn-outline-primary mt-2 rounded-5 d-block btnDetail">Detail</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col mb-2">
+        <div class="card shadow rounded-4 border-white">
+          <img
+            src="images/buku2.jpg"
+            class="card-img-top p-3 rounded-3"
+            alt="buku1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Deep Work</h5>
+          </div>
+          <div class="description d-none">
+            <p class="text-justify">
+              Deep Work: Rules for Focused Success in a Distracted World" is a
+              transformative book by Cal Newport that delves into the concept of
+              deep work—intensely focused, undistracted work that allows you to
+              produce high-quality results in less time. Newport argues that in
+              today's world filled with constant distractions, the ability to
+              concentrate without interruption is becoming increasingly rare yet
+              incredibly valuable. Drawing from neuroscience, psychology, and
+              his own experiences, Newport presents practical strategies to
+              cultivate deep work in our lives, including time management
+              techniques, mindfulness practices, and the importance of setting
+              clear boundaries with technology. Through compelling anecdotes and
+              research-backed insights, "Deep Work" offers a roadmap for
+              achieving peak productivity and fulfillment in an age of endless
+              distractions.
+            </p>
+          </div>
+          <div
+            class="card-footer d-md-flex justify-content-between align-items-center"
+          >
+            <span class="fw-bold text-center price">Rp. 120.000</span>
+            <a class="btn btn-outline-primary mt-2 rounded-5 d-block btnDetail"
+              >Detail</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col mb-2">
+        <div class="card shadow rounded-4 border-white">
+          <img
+            src="images/buku4.jpg"
+            class="card-img-top p-3 rounded-3"
+            alt="buku1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Range</h5>
+          </div>
+          <div class="description d-none">
+            <p>
+              Range: Why Generalists Triumph in a Specialized World" by David
+              Epstein challenges the conventional wisdom that specialization is
+              the key to success. Drawing from research across various fields,
+              Epstein argues that in an increasingly complex world, those with
+              diverse interests and skills—generalists—often outperform
+              specialists. He examines the journeys of successful individuals
+              and organizations, demonstrating how breadth of knowledge and
+              experiences can foster innovation, adaptability, and creativity.
+              Through engaging anecdotes and compelling evidence, "Range"
+              encourages readers to embrace exploration and embrace their
+              multidisciplinary interests, ultimately advocating for a more
+              holistic approach to personal and professional development.
+            </p>
+          </div>
+          <div
+            class="card-footer d-md-flex justify-content-between align-items-center"
+          >
+            <span class="fw-bold text-center price">Rp. 110.000</span>
+            <a class="btn btn-outline-primary mt-2 rounded-5 d-block btnDetail"
+              >Detail</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col mb-2">
+        <div class="card shadow rounded-4 border-white">
+          <img
+            src="images/buku3.jpg "
+            class="card-img-top p-3 rounded-3"
+            alt="buku1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Making Learning Whole</h5>
+          </div>
+          <div class="description d-none">
+            <p>
+              Making Learning Whole: How Seven Principles of Teaching Can
+              Transform Education" is a book by David Perkins that offers a
+              comprehensive framework for educators to enhance learning
+              experiences. Perkins introduces seven key principles that
+              emphasize engaging students in meaningful, holistic learning
+              rather than fragmented instruction. Through practical examples and
+              insights, he advocates for a shift towards deeper understanding,
+              active learning, and real-world application. The book aims to
+              inspire educators to rethink their approach to teaching and foster
+              environments where students can develop essential skills for
+              lifelong learning.
+            </p>
+          </div>
+          <div
+            class="card-footer d-md-flex justify-content-between align-items-center"
+          >
+            <span class="fw-bold text-center price">Rp. 100.000</span>
+            <a class="btn btn-outline-primary mt-2 rounded-5 d-block btnDetail"
+              >Detail</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col mb-2">
+        <div class="card shadow rounded-4 border-white">
+          <img
+            src="images/buku5.jpg"
+            class="card-img-top p-3 rounded-3"
+            alt="buku1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">AI and Machine Learning for coders</h5>
+          </div>
+          <div class="description d-none">
+            <p>
+              AI and Machine Learning for Coders" is a comprehensive guide
+              tailored for programmers eager to dive into the realm of
+              artificial intelligence and machine learning. Authored with a
+              hands-on approach in mind, this book offers a blend of theory and
+              practical implementation, equipping readers with the essential
+              knowledge to understand and build intelligent systems. From
+              fundamental concepts to advanced algorithms, it provides clear
+              explanations alongside real-world examples and coding exercises,
+              ensuring readers develop a solid foundation in AI and machine
+              learning. Whether you're a seasoned coder looking to expand your
+              skill set or a novice eager to explore the frontier of AI, this
+              book serves as an indispensable resource for mastering the
+              principles and techniques driving the future of technology.
+            </p>
+          </div>
+          <div
+            class="card-footer d-md-flex justify-content-between align-items-center"
+          >
+            <span class="fw-bold text-center price">Rp. 180.000</span>
+            <a class="btn btn-outline-primary mt-2 rounded-5 d-block btnDetail"
+              >Detail</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col mb-2">
+        <div class="card shadow rounded-4 border-white">
+          <img
+            src="images/buku6.jpg "
+            class="card-img-top p-3 rounded-3"
+            alt="buku1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Web scalability for startup engineers</h5>
+          </div>
+          <div class="description d-none">
+            <p>
+              Web Scalability for Startup Engineers" is a comprehensive guide
+              designed to equip startup engineers with the essential knowledge
+              and strategies to build and maintain scalable web applications.
+              Written with practical insights and real-world examples, this book
+              covers key topics such as architecture design, database
+              management, caching techniques, load balancing, and horizontal
+              scaling. Whether you're a seasoned developer or just starting out,
+              this book provides actionable advice to help you navigate the
+              challenges of scaling your web application effectively, ensuring
+              it can grow seamlessly with your startup's success.
+            </p>
+          </div>
+          <div
+            class="card-footer d-md-flex justify-content-between align-items-center"
+          >
+            <span class="fw-bold text-center price">Rp. 140.000</span>
+            <a class="btn btn-outline-primary mt-2 rounded-5 d-block btnDetail"
+              >Detail</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end products -->
+
+    <!-- modal -->
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary d-none btnModal"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade "
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-centered ">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 modalTitle" id="exampleModalLabel"></h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body row">
+            <div class="col-md-10 col-lg-6 col-12">
+              <img
+                src=""
+                id="image"
+                class="modalImage w-100 mb-4 mx-auto rounded img-thumbnail"
+              />
+            </div>
+            <div class="col-md-12 col-lg-6 col-12">
+              <div class="modalDescription"></div>
+              <div>
+                <div
+                  class="d-md-flex d-flex-wrap justify-content-between align-items-center"
+                >
+                  <span class="fw-bold text-center modalPrice"></span>
+                  <a
+                    target="_blank"
+                    href=""
+                    class="btn btn-warning mt-2 rounded-5 d-block btnBuy"
+                    >Buy</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary rounded-5"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end modal -->
+
+    <!-- About -->
+    <div
+      class="px-5 py-5 my-5 bg-secondary text-white"
+      id="about"
+      style="height: 100%"
+    >
+      <h3 class="my-5 text-center">About Us</h3>
+
+      <!-- <img src="images/about-us.png" alt="about" align="left" class="me-3 mb-3 w-md-100 w-25 w-lg-50" /> -->
+      <p class="text-white">
+        At Shopo Bookstore, our passion for literature drives everything we do.
+        Founded with a vision to share the joy of reading, we've dedicated
+        ourselves to connecting readers with remarkable books since our
+        inception. Our journey began with a simple belief: that books have the
+        power to inspire, enlighten, and transform lives. With this guiding
+        principle, we've cultivated a community of book lovers who share our
+        enthusiasm for the written word. Driven by a commitment to excellence,
+        we carefully curate our collection to offer a diverse range of books
+        that cater to every taste and interest. From acclaimed classics to
+        contemporary masterpieces, each title is handpicked to ensure quality
+        and relevance. But our mission extends beyond just selling books. We
+        strive to foster a culture of literacy and learning, providing resources
+        and support to readers of all ages and backgrounds. Through author
+        events, book clubs, and educational programs, we aim to enrich the
+        reading experience and nurture a love for literature in our community.
+        As we continue to grow and evolve, our dedication to promoting literacy
+        and spreading the joy of reading remains unwavering. Join us in
+        celebrating the magic of books and embark on a journey of discovery with
+        Shopo Bookstore."
+      </p>
+      <img
+        src="images/book-collection.png"
+        alt="book-collection"
+        class="w-100"
+      />
+    </div>
+
+    <!-- Order -->
+    <div class="px-4 py-5 my-5  bg-light" id="order">
+      <h3 class="text-center">How to Order</h3>
+      <p >
+        <!-- <img
+          src="images/order.png"
+          alt="about"
+          align="right"
+          
+          class="w-100 me-3 mb-3"
+        /> -->
+        Certainly, here's a more detailed opening:
+
+        <ol>
+          <li>
+            Begin your ordering process by navigating to the product page and clicking on "Details." This step allows you to explore comprehensive information about the product, including its features, specifications, and any additional details you may need to make an informed decision.
+          </li>
+          <li>
+            Once you've reviewed the details and are ready to make a purchase, simply click on the "Buy" button. This action signals your intent to proceed with the order and initiates the checkout process.
+          </li>
+          <li> 
+Upon clicking "Buy," you'll seamlessly transition to WhatsApp, where you'll be connected with our dedicated team to facilitate the completion of your order. Through WhatsApp, you can discuss any specific requirements, confirm pricing and availability, and finalize the necessary details to ensure a smooth and satisfactory transaction.
+          </li>
+        </ol>
+      </p>
+    </div>
+
+    <!-- copyright -->
+    <div class="text-center text-white p-3 bg-primary">
+      © 2024 Copyright:
+      <a class="text-white" href="#">Aditia Kurniawan</a>
+                </div>
+
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+                <script src="javascript/main.js"></script>
+</body>
+
+</html>
